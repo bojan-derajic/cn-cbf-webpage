@@ -78,8 +78,7 @@ h2 {
   margin: 6px 10px;
 }
 
-.links a,
-.links .disabled {
+.links a {
   display: inline-block;
   padding: 7px 18px;
   border: 1px solid #ccc;
@@ -97,11 +96,6 @@ h2 {
   height: 15px;
   vertical-align: -2px;
   margin-right: 7px;
-}
-
-.links .disabled {
-  color: #999;
-  border-color: #e5e5e5;
 }
 
 pre {
@@ -142,13 +136,11 @@ a { color: #1a4f8a; }
   border: 0;
 }
 
-.placeholder {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-style: dashed;
-  border-color: #ddd;
-  color: #999;
+.fallback {
+  margin: 0;
+  padding: 24px;
+  text-align: center;
+  color: #666;
   font-size: 0.9em;
 }
 
